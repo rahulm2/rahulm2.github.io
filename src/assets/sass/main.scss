@@ -1,5 +1,6 @@
 @import "./helpers/variables";
-@import "./basic/root.scss";
+@import "./basic/root";
+@import "./helpers/typography";
 @import "./layout/header";
 @import "./layout/section-intro";
 @import "./layout/section-services";
