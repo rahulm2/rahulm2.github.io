@@ -5,9 +5,13 @@ $ff-secondary: "Source Code Pro", monospace;
 $fw-reg: 300;
 $fw-bold: 900;
 
-$clr-light: #fff;
-$clr-dark: #303030;
-$clr-accent: #85c9de;
+$clr-primary: var(--clr-primary);
+$clr-secondary: var(--clr-secondary);
+$clr-accent: var(--clr-accent);
+$clr-portfolio-item: var(--clr-portfolio-item);
+$clr-banner-text: var(--clr-banner);
+$clr-light: var(--clr-light);
+$clr-dark: var(--clr-dark);
 
 $bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
   0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);

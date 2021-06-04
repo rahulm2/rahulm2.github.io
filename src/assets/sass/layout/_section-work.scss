@@ -10,8 +10,8 @@
 
 /* My Work */
 .my-work {
-  background-color: $clr-dark;
-  color: $clr-light;
+  background-color: $clr-secondary;
+  color: $clr-primary;
   text-align: center;
 }
 
@@ -22,6 +22,7 @@
 .portfolio__item {
   overflow: hidden;
   background: #585858;
+  color: $clr-portfolio-item;
   margin-bottom: 2rem;
   border-radius: 5px;
 }

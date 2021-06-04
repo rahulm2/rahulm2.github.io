@@ -1,6 +1,7 @@
+@import "./helpers/root";
 @import "./helpers/variables";
-@import "./basic/root";
 @import "./helpers/typography";
+@import "./basic/base";
 @import "./layout/header";
 @import "./layout/section-intro";
 @import "./layout/section-services";

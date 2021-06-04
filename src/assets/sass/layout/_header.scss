@@ -40,7 +40,7 @@ header a {
 }
 
 .nav__link {
-  color: inherit;
+  color: $clr-light;
   font-weight: $fw-bold;
   font-size: var(--fs-h2);
   text-decoration: none;

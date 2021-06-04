@@ -1,9 +1,9 @@
 /* My services section */
 .my-services {
-  background-color: $clr-dark;
+  background-color: $clr-secondary;
   background-size: cover;
   /* background-blend-mode: multiply; */
-  color: $clr-light;
+  color: $clr-primary;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@
   width: 2em;
   height: 1px;
   margin: 0.5em auto 1em;
-  background: $clr-light;
+  background: $clr-primary;
   opacity: 0.25;
 }
 
