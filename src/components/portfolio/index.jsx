@@ -15,6 +15,7 @@ export default function index() {
           <p>Freelancing</p>
           <p>April 20 - Present</p>
         </div>
+        <p>Technologies:- React, SCSS, Service Workers</p>
         <ul className="portfolio__item-list">
           <li>
             Built a React based website 10skills.co to help people with
@@ -41,6 +42,9 @@ export default function index() {
           <p>Synacor</p>
           <p>April 21 - Present</p>
         </div>
+        <p>
+          Technologies:- React, Redux, Recompose, SCSS, GraphQL, Apollo Client
+        </p>
         <ul className="portfolio__item-list">
           <li>
             Developed User Interface component using Reactjs to display
@@ -64,6 +68,10 @@ export default function index() {
           <p>Avaya</p>
           <p>July 18 - April 21</p>
         </div>
+        <p>
+          Technologies:- React, Redux, SCSS, Axios, Java, Hibernate, EJB, J2EE,
+          Docker
+        </p>
         <ul className="portfolio__item-list">
           <li>
             Developed multiple UI modules for different screens and data
