@@ -1,20 +1,13 @@
 .section__title--intro {
   font-weight: $fw-reg;
+  position: relative;
+  animation: dropin 1s ease-out forwards;
 }
 
 .section__title--intro strong {
   display: block;
 }
 
-.section__subtitle--intro {
-  color: $clr-banner-text;
-  background: $clr-accent;
-  padding: 0.25em 1em;
-  font-family: $ff-secondary;
-  margin-bottom: 1em;
-
-  height: fit-content;
-}
 .intro {
   position: relative;
   display: flex;
@@ -23,10 +16,21 @@
 
 .intro__img {
   box-shadow: $bs;
+  position: relative;
+  opacity: 0;
+  animation: fadein 1s ease-in 1s forwards;
 }
 
 .section__subtitle--intro {
+  position: relative;
   display: inline-block;
+  color: $clr-banner-text;
+  background: $clr-accent;
+  padding: 0.25em 1em;
+  font-family: $ff-secondary;
+  margin-bottom: 1em;
+  height: fit-content;
+  animation: left-to-right 1s ease-in forwards;
 }
 
 @media (min-width: 600px) {
@@ -56,5 +60,32 @@
     position: relative;
     left: -1.5em;
     width: calc(100% + 1.5em);
+  }
+}
+
+@keyframes left-to-right {
+  0% {
+    left: -100vw;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes dropin {
+  0% {
+    top: -1000px;
+  }
+  100% {
+    top: 0;
   }
 }
